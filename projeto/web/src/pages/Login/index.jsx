@@ -13,13 +13,17 @@ export const Login = () => {
                 <img src="/logo/logo-fundo-branco.svg" alt="" className="w-32 md:w-40" />
             </header>
             <main className="container max-w-xl p-4">
-                <div className="p-4">
-                    <Icon name="arrowLeft"/>
+                <div className="p-4 flex space-x-4 items-center">
+                       {/* adicionar link para home*/}
+                    <a href="/"> 
+                    <Icon name="arrowLeft" className="h-6"/>
+                    </a>  
+
                     <h2 className="text-xl font-bold">
                         Entre na Sua Conta
                     </h2>
                 </div>
-                <form className="space-y-6">
+                <form className="p-4 space-y-6">
                    <Input
                    type="text"
                    name="email"
