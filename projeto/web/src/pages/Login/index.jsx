@@ -14,7 +14,7 @@ export const Login = () => {
             </header>
             <main className="container max-w-xl p-4">
                 <div className="p-4">
-                    <Icon/>
+                    <Icon name="arrowLeft"/>
                     <h2 className="text-xl font-bold">
                         Entre na Sua Conta
                     </h2>
