@@ -1,12 +1,12 @@
-import { Icon } from "../../components"
+import { Card, Icon } from "../../components"
 
 export const Dashboard =() => (
    <div className="">
 
 
-             <header className="bg-red-500 text-white p-4">
+             <header className="bg-red-500 text-white">
 
-                <div className="container max-w-3xl  flex justify-between">
+                <div className="container max-w-3xl  flex justify-between p-4">
 
                 <img src="/logo/logo-fundo-vermelho.svg" alt="" className="w-28 md:w-40" />
                 
@@ -20,8 +20,8 @@ export const Dashboard =() => (
 
             <main>
 
-                <section id="header" className="bg-red-500 text-white p-4">
-                <div className="container max-w-3xl space-y-6">
+                <section id="header" className="bg-red-500 text-white ">
+                <div className="container max-w-3xl space-y-2 p-4">
 
                    <span>Olá Hugo</span>
                     <h3 className="text-2xl font-bold">Qual é o seu Palpite?</h3>
@@ -29,11 +29,19 @@ export const Dashboard =() => (
                     </div>
 
                 </section>
+                <section id="content" className="container max-w-3xl p-4">
 
-                <section id="content" className="">
-                    
+                    <Card
+                    timeA={{ slug: 'sui'}}
+                    TimeB={{ slug: 'cam'}}
+                    match={{time: '7:00'}}
+
+                    />
+
 
                 </section>
+
+                
 
             </main>
 
