@@ -38,7 +38,7 @@ export const Login = () => {
                         placeholder="Digite sua senha"
                     />
                     <button className=" w-full text-white text-center bg-red-500  px-6 py-3 rounded-xl">
-                            Criar minha conta
+                            Entrar
                     </button>
                 </form>
             </main>

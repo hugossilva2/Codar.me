@@ -24,6 +24,19 @@ export const Signup = () => {
                     </h2>
                 </div>
                 <form className="p-4 space-y-6">
+                    <Input
+                        type="text"
+                        name="email"
+                        label="Seu nome"
+                        placeholder="Digite seu nome"
+                    />
+
+                    <Input
+                        type="text"
+                        name="username"
+                        label="Seu nome de usuário"
+                        placeholder="Digite um nome de usuário"
+                    />
                    <Input
                    type="text"
                    name="email"
