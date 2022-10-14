@@ -1,7 +1,13 @@
 import Router from '@koa/router'
+import * as users  from './app/users/index.js'
 
 export const router = new Router()
 
-router.get('/',async ctx => {
-  ctx.body = 'Hello World Ola mundo'
-})
+router.post('/users', users.create)
+
+
+
+
+
+
+
