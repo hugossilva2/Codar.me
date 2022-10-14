@@ -40,4 +40,6 @@ model Hunch {
   awayTeamScore Int
   createdAt     DateTime @default(now())
   updateAt      DateTime @updatedAt
+
+  @@unique([userId, gameId])
 }
